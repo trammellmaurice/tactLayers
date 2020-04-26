@@ -10,7 +10,7 @@ of multiple semi-autonomous assets.
   - Assets move within their "layer"
 
 PURPOSE:
-To create a baseline tactical training platform for commanding UxS assets. To be controlled by AI. 
+To create a baseline tactical training platform for commanding UxS assets. To be controlled by AI.
 
 ASSETS:
 Infinite Stamina: (Can move continuously)
@@ -18,18 +18,21 @@ Infinite Stamina: (Can move continuously)
   UGV Light -- fast but lower armor and mid damage
 
   UAV Eye -- Spots for friendly assets:
+
     -- UGV Heavy attack in all directions while overhead
     -- UGV Light
 
     -- UAV Drop can hit UGVall
     -- Infantry can attack UGV
 
-  UAV Drop -- Can attack Infantry and turrets
+  UAV Drop -- Can attack Infantry and turrets:
+
     -- Drops with random probability in cardinal directions and under
     -- 1 in 5 chance
 
 Limited Stamina: (Move - Stop - Move)
-  Infantry -- Control UxS (Must be alive to use UxS)
+  Infantry -- Control UxS (Must be alive to use UxS):
+
     -- Can attack UGVL
     -- Can attack UAV E
     -- Can attack Infantry
@@ -49,11 +52,14 @@ Interfaces:
   Air to Ground:
   -- UAV D can attack Infantry and Turrets
 
-  Ground to Groud:
+  Ground to Ground:
+
   -- UGV all can attack Infantry
   -- Infantry can attack UGV L
   -- Turrets can attack Infantry and UGVall
 
   Ground to Air:
+
+
   -- Infantry can attack UAV D
   --UGV H can attack UAVall
