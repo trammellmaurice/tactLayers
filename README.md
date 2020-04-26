@@ -9,6 +9,9 @@ of multiple semi-autonomous assets.
   - Assets move in a predictable pattern
   - Assets move within their "layer"
 
+PURPOSE:
+To create a baseline tactical training platform for commanding UxS assets. To be controlled by AI. 
+
 ASSETS:
 Infinite Stamina: (Can move continuously)
   UGV Heavy -- slow but heavily armored and high damage
@@ -54,4 +57,3 @@ Interfaces:
   Ground to Air:
   -- Infantry can attack UAV D
   --UGV H can attack UAVall
-  
